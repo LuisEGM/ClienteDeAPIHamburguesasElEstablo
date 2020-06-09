@@ -43,10 +43,10 @@ export default class Nav extends React.Component{
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" style={{color: 'black'}} data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Stored Procedures</a>
                         <div className="dropdown-menu">
-                        <a className="dropdown-item" href="7">SP #1</a>
-                        <div className="dropdown-divider"></div>
+                        <Link className="dropdown-item" to="/stored_procedures/_1">Ganancias de restaurantes</Link>
+                        {/* <div className="dropdown-divider"></div> */}
                         <a className="dropdown-item" href="/">SP #2</a>
-                        <div className="dropdown-divider"></div>
+                        {/* <div className="dropdown-divider"></div> */}
                         <a className="dropdown-item" href="/">SP #3</a>
                         </div>
                     </li>
