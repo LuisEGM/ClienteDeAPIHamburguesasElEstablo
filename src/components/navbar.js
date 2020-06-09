@@ -14,7 +14,7 @@ export default class Nav extends React.Component{
                 
                 {/* titulo del nav */}
                 
-                <a className="navbar-brand" style={{fontSize: 1.7+'em'}} href="#">
+                <a className="navbar-brand" style={{fontSize: 1.7+'em'}} href="/">
                 <img src="https://image.flaticon.com/icons/svg/3027/3027189.svg" width="50" height="40" className="d-inline-block align-top" alt="" loading="lazy"/>
                     Cliente REST DBhamburguesasElEstablo 
                 </a>
@@ -24,9 +24,9 @@ export default class Nav extends React.Component{
                 <ul className="nav nav-tabs">
 
                     <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" style={{color: 'black'}} data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Views</a>
+                    <a className="nav-link dropdown-toggle" style={{color: 'black'}} data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Views</a>
                     <div className="dropdown-menu">
-                        <Link className="dropdown-item" to="/views/_1">View #1</Link>
+                        <Link className="dropdown-item" to="/views/_1">Cliente Estrella</Link>
                         {/* <div className="dropdown-divider"></div> */}
                         <Link className="dropdown-item" to="/views/_2">View #2</Link>
                         {/* <div className="dropdown-divider"></div> */}
@@ -41,13 +41,13 @@ export default class Nav extends React.Component{
                     </li>
 
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" style={{color: 'black'}} data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Stored Procedures</a>
+                        <a className="nav-link dropdown-toggle" style={{color: 'black'}} data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Stored Procedures</a>
                         <div className="dropdown-menu">
-                        <a className="dropdown-item" href="#">SP #1</a>
+                        <a className="dropdown-item" href="7">SP #1</a>
                         <div className="dropdown-divider"></div>
-                        <a className="dropdown-item" href="#">SP #2</a>
+                        <a className="dropdown-item" href="/">SP #2</a>
                         <div className="dropdown-divider"></div>
-                        <a className="dropdown-item" href="#">SP #3</a>
+                        <a className="dropdown-item" href="/">SP #3</a>
                         </div>
                     </li>
 

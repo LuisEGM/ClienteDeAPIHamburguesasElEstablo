@@ -1,0 +1,13 @@
+.container_custom{
+    border-radius: 5px;
+    border: solid 1px black;
+    -webkit-box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
+    box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
+    background-color: rgb(241, 241, 241)
+}
+
+.center{
+    text-align: center;
+    margin-top: .5em;
+}
