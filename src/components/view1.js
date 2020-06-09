@@ -51,12 +51,13 @@ export default class View1 extends React.Component{
         
         return(
             <div className="container container_custom">
-                <h1 className="center">Cliente Estrella</h1>
+                <h1 className="center marco">Cliente Estrella</h1>
                 <p className="center">Este cliente ha sido el que mas dinero ha gastado en productos de los restarurante</p>
                 <hr></hr>
                 {console.log('antes del envio a la card',this.state.data)
                 }
                 <Card
+                    img = "https://image.flaticon.com/icons/png/512/2990/2990662.png"
                     data = {this.state.data}
                 />
 

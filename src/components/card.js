@@ -1,8 +1,7 @@
 import React from "react";
 import "./styles/card.css";
 
-const Card = ({ data }) => {
-    console.log('para pintar targeta',data[0]);
+const Card = ({ data, img }) => {
     
     return(
         <>{
@@ -12,7 +11,7 @@ const Card = ({ data }) => {
                     <div className="card-body">
                         <div className="row center">
                             <div className="col-6">
-                                <img src="https://image.flaticon.com/icons/png/512/2990/2990662.png" className="float-right img" />
+                                <img src={img} className="float-right img" />
                             </div>   
                             <div className="col-6 Fitness-Card-Info">
                                 <h1>{elem.nombres+' '+elem.apellidos}</h1>

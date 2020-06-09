@@ -57,3 +57,76 @@
     border-radius: 5px;
     background-color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.datoP{
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.Fitness-CardP {
+    max-height: 240px;
+    max-width: 530px;
+}
+
+.cifraP{
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Fitness-Card-InfoP {
+    padding-left: 0;
+    padding-right: 65px;
+}
+
+.Fitness-Card-InfoP h1{
+    font-size:2.5em;
+    color: white;
+}
+
+
+.imgP {
+    height: 11em;
+    width: 11em;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(255,255,255,1);
+    box-shadow: 3px 3px 3px 0px rgba(255,255,255,1);
+    background-color: white;
+}
+
+
+.cardP {
+    border: solid 1px black;
+    border-radius: 8px;
+    background: url('../../image/circles.png') no-repeat, linear-gradient(to right, rgb(221, 255, 29), rgb(255, 140, 46));
+    margin-bottom: 20px;
+    -webkit-box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
+    box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
+}

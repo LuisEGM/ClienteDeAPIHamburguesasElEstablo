@@ -28,9 +28,9 @@ export default class Nav extends React.Component{
                     <div className="dropdown-menu">
                         <Link className="dropdown-item" to="/views/_1">Cliente Estrella</Link>
                         {/* <div className="dropdown-divider"></div> */}
-                        <Link className="dropdown-item" to="/views/_2">View #2</Link>
+                        <Link className="dropdown-item" to="/views/_2">Datos de Restaurantes</Link>
                         {/* <div className="dropdown-divider"></div> */}
-                        <Link className="dropdown-item" to="/views/_3">View #3</Link>
+                        <Link className="dropdown-item" to="/views/_3">Producto Estrella</Link>
                         {/* <div className="dropdown-divider"></div> */}
                         <Link className="dropdown-item" to="/views/_4">View #4</Link>
                         {/* <div className="dropdown-divider"></div> */}

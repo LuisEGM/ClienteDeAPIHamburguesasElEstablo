@@ -4,10 +4,24 @@
     -webkit-box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
     -moz-box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
     box-shadow: -1px 3px 5px 0px rgba(163,163,163,1);
-    background-color: rgb(241, 241, 241)
+    background: rgb(240, 240, 240);
 }
 
 .center{
     text-align: center;
     margin-top: .5em;
+}
+
+.marco{
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: white;
+    background: linear-gradient(to right, #A74CF2, #617BFB);
+}
+
+.marcoP{
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: white;
+    background: linear-gradient(to right, rgb(221, 255, 29), rgb(255, 140, 46));
 }

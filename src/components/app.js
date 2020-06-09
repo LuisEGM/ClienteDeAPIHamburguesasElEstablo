@@ -10,8 +10,6 @@ import PageView4 from "./pages/pageView4";
 import PageView5 from "./pages/pageView5";
 import PageView6 from "./pages/pageView6";
 
-
-
 export default function App(){
     return(
         <BrowserRouter>
